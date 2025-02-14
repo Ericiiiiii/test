@@ -1,9 +1,15 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.13">
   <diagram name="第 1 页" id="ZVLj4iOac9WPwyHm0ckP">
-    <mxGraphModel dx="4877" dy="1977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7426" dy="3289" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KKNS8De5CxTKTrktDygs-379" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1090" y="1270" width="1250" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-374" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-80" width="2700" height="2190" as="geometry" />
+        </mxCell>
         <mxCell id="KKNS8De5CxTKTrktDygs-343" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-3240" y="-570" width="3710" height="1600" as="geometry" />
         </mxCell>
@@ -555,6 +561,15 @@
         </mxCell>
         <mxCell id="KKNS8De5CxTKTrktDygs-373" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;节点&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-371">
           <mxGeometry x="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-375" value="&lt;font style=&quot;font-size: 60px;&quot;&gt;子设备连接结构，任意节点之间都可以通过通信接口获取数据&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="-35" width="1640" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-377" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #6a9955;&quot;&gt;// 弱函数，需要被重写&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp; &amp;nbsp; /*----------------------------------------------------------------------------------*/&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #6a9955;&quot;&gt;// 处理来自上层的升级请求&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; __weak &lt;span style=&quot;color: #569cd6;&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;Ex_Api_Upgrade&lt;/span&gt;(&lt;span style=&quot;color: #569cd6;&quot;&gt;void&lt;/span&gt;);&lt;/div&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #6a9955;&quot;&gt;// 获取系统时间戳，用于跟下层节点交互，必须实现，返回ms级时间戳&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; __weak &lt;span style=&quot;color: #569cd6;&quot;&gt;uint32_t&lt;/span&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;Ex_Api_Systemtime&lt;/span&gt;(&lt;span style=&quot;color: #569cd6;&quot;&gt;void&lt;/span&gt;);&lt;/div&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #6a9955;&quot;&gt;// 设置下层节点状态时，下层节点返回的结果或者下层同步自身状态（无超时响应）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; __weak &lt;span style=&quot;color: #569cd6;&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;Ex_Api_SetDownStatus_REP&lt;/span&gt;(&lt;span style=&quot;color: #569cd6;&quot;&gt;uint32_t&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;moduleid&lt;/span&gt;, &lt;span style=&quot;color: #569cd6;&quot;&gt;uint8_t&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;result&lt;/span&gt;, &lt;span style=&quot;color: #569cd6;&quot;&gt;enum&lt;/span&gt; ExModelStatusEnum &lt;span style=&quot;color: #9cdcfe;&quot;&gt;status&lt;/span&gt;);&lt;/div&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #6a9955;&quot;&gt;// 时间同步返回的时间戳&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; __weak &lt;span style=&quot;color: #569cd6;&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;Ex_Api_timestamp_sync&lt;/span&gt;(&lt;span style=&quot;color: #569cd6;&quot;&gt;uint32_t&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;week&lt;/span&gt;, &lt;span style=&quot;color: #569cd6;&quot;&gt;uint64_t&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;itow&lt;/span&gt;, &lt;span style=&quot;color: #569cd6;&quot;&gt;uint64_t&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;Unix&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="1450" width="850" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-378" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;需要被实现的弱函数接口&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="1310" width="460" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
