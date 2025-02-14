@@ -1,9 +1,292 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.13">
   <diagram name="第 1 页" id="ZVLj4iOac9WPwyHm0ckP">
-    <mxGraphModel>
+    <mxGraphModel dx="3850" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KKNS8De5CxTKTrktDygs-10" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="70" y="230" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-12" value="" style="group" vertex="1" connectable="0" parent="KKNS8De5CxTKTrktDygs-10">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-6" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; typedef struct&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t Master_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 上层节点的识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t MY_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 自身识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HardwareVersion; // 硬件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t SoftwareVersion; // 软件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HandShakeTime;&amp;nbsp; &amp;nbsp;// 握手时间间隔&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t DisconnectTime;&amp;nbsp; // 离线时间&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; } Ex_Api_t;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-12">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-8" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;节点信息&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-12">
+          <mxGeometry x="90" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-500" y="810" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-14" value="" style="group" vertex="1" connectable="0" parent="KKNS8De5CxTKTrktDygs-13">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-15" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; typedef struct&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t Master_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 上层节点的识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t MY_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 自身识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HardwareVersion; // 硬件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t SoftwareVersion; // 软件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HandShakeTime;&amp;nbsp; &amp;nbsp;// 握手时间间隔&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t DisconnectTime;&amp;nbsp; // 离线时间&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; } Ex_Api_t;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-14">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-16" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;节点&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-14">
+          <mxGeometry x="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-32" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KKNS8De5CxTKTrktDygs-16" target="KKNS8De5CxTKTrktDygs-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="730" as="sourcePoint" />
+            <mxPoint x="460" y="680" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-33" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="540" y="800" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-34" value="" style="group" vertex="1" connectable="0" parent="KKNS8De5CxTKTrktDygs-33">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-35" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; typedef struct&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t Master_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 上层节点的识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t MY_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 自身识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HardwareVersion; // 硬件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t SoftwareVersion; // 软件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HandShakeTime;&amp;nbsp; &amp;nbsp;// 握手时间间隔&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t DisconnectTime;&amp;nbsp; // 离线时间&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; } Ex_Api_t;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-34">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-36" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;节点&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-34">
+          <mxGeometry x="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-38" value="" style="group;fillColor=#dae8fc;strokeColor=light-dark(#1665d4, #5c79a3);" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="70" y="810" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-39" value="" style="group" vertex="1" connectable="0" parent="KKNS8De5CxTKTrktDygs-38">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-40" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; typedef struct&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t Master_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 上层节点的识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t MY_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 自身识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HardwareVersion; // 硬件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t SoftwareVersion; // 软件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HandShakeTime;&amp;nbsp; &amp;nbsp;// 握手时间间隔&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t DisconnectTime;&amp;nbsp; // 离线时间&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; } Ex_Api_t;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;labelBackgroundColor=#3399FF;" vertex="1" parent="KKNS8De5CxTKTrktDygs-39">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-41" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;节点&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-39">
+          <mxGeometry x="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-42" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KKNS8De5CxTKTrktDygs-40" target="KKNS8De5CxTKTrktDygs-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="757" y="590" as="sourcePoint" />
+            <mxPoint x="627" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-44" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="KKNS8De5CxTKTrktDygs-36" target="KKNS8De5CxTKTrktDygs-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="757" y="590" as="sourcePoint" />
+            <mxPoint x="807" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-66" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1000" y="1320" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-67" value="" style="group" vertex="1" connectable="0" parent="KKNS8De5CxTKTrktDygs-66">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-68" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; typedef struct&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t Master_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 上层节点的识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t MY_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 自身识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HardwareVersion; // 硬件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t SoftwareVersion; // 软件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HandShakeTime;&amp;nbsp; &amp;nbsp;// 握手时间间隔&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t DisconnectTime;&amp;nbsp; // 离线时间&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; } Ex_Api_t;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-67">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-69" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;节点信息&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-67">
+          <mxGeometry x="90" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-70" value="" style="group;fillColor=#DAE8FC;strokeColor=#6c8ebf;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1300" y="1754" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-71" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" connectable="0" parent="KKNS8De5CxTKTrktDygs-70">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-72" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; typedef struct&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t Master_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 上层节点的识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t MY_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 自身识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HardwareVersion; // 硬件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t SoftwareVersion; // 软件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HandShakeTime;&amp;nbsp; &amp;nbsp;// 握手时间间隔&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t DisconnectTime;&amp;nbsp; // 离线时间&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; } Ex_Api_t;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=light-dark(#CC0000,#FFFFFF);align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;labelBackgroundColor=light-dark(#c62a2a, #ededed);" vertex="1" parent="KKNS8De5CxTKTrktDygs-71">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-73" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;节点&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-71">
+          <mxGeometry x="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-74" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KKNS8De5CxTKTrktDygs-73" target="KKNS8De5CxTKTrktDygs-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-870" y="1690" as="sourcePoint" />
+            <mxPoint x="-820" y="1640" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-79" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1000" y="1754" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-80" value="" style="group" vertex="1" connectable="0" parent="KKNS8De5CxTKTrktDygs-79">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-81" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;nbsp; &amp;nbsp; typedef struct&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;nbsp; &amp;nbsp; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t Master_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 上层节点的识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t MY_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 自身识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HardwareVersion; // 硬件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t SoftwareVersion; // 软件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HandShakeTime;&amp;nbsp; &amp;nbsp;// 握手时间间隔&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t DisconnectTime;&amp;nbsp; // 离线时间&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;nbsp; &amp;nbsp; } Ex_Api_t;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-80">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-82" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;节点&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-80">
+          <mxGeometry x="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-83" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KKNS8De5CxTKTrktDygs-81" target="KKNS8De5CxTKTrktDygs-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-870" y="1800" as="sourcePoint" />
+            <mxPoint x="-1000" y="1610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-84" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="KKNS8De5CxTKTrktDygs-176" target="KKNS8De5CxTKTrktDygs-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-535" y="1754" as="sourcePoint" />
+            <mxPoint x="-820" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-85" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KKNS8De5CxTKTrktDygs-69" target="KKNS8De5CxTKTrktDygs-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-610" y="1309" as="sourcePoint" />
+            <mxPoint x="-370" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-86" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="13" y="1350" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-87" value="" style="group" vertex="1" connectable="0" parent="KKNS8De5CxTKTrktDygs-86">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-88" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; typedef struct&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t Master_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 上层节点的识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t MY_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 自身识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HardwareVersion; // 硬件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t SoftwareVersion; // 软件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HandShakeTime;&amp;nbsp; &amp;nbsp;// 握手时间间隔&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t DisconnectTime;&amp;nbsp; // 离线时间&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; } Ex_Api_t;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-87">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-89" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;节点信息&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-87">
+          <mxGeometry x="90" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-90" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-310" y="1754" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-91" value="" style="group" vertex="1" connectable="0" parent="KKNS8De5CxTKTrktDygs-90">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-92" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; typedef struct&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t Master_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 上层节点的识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t MY_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 自身识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HardwareVersion; // 硬件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t SoftwareVersion; // 软件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HandShakeTime;&amp;nbsp; &amp;nbsp;// 握手时间间隔&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t DisconnectTime;&amp;nbsp; // 离线时间&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; } Ex_Api_t;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-91">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-93" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;节点&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-91">
+          <mxGeometry x="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-94" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KKNS8De5CxTKTrktDygs-93" target="KKNS8De5CxTKTrktDygs-88">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="1710" as="sourcePoint" />
+            <mxPoint x="330" y="1660" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-95" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="340" y="1754" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-96" value="" style="group" vertex="1" connectable="0" parent="KKNS8De5CxTKTrktDygs-95">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-97" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; typedef struct&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t Master_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 上层节点的识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t MY_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 自身识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HardwareVersion; // 硬件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t SoftwareVersion; // 软件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HandShakeTime;&amp;nbsp; &amp;nbsp;// 握手时间间隔&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t DisconnectTime;&amp;nbsp; // 离线时间&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; } Ex_Api_t;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-96">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-98" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;节点&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-96">
+          <mxGeometry x="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-99" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="13" y="1754" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-100" value="" style="group" vertex="1" connectable="0" parent="KKNS8De5CxTKTrktDygs-99">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-101" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; typedef struct&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t Master_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 上层节点的识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t MY_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 自身识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HardwareVersion; // 硬件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t SoftwareVersion; // 软件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HandShakeTime;&amp;nbsp; &amp;nbsp;// 握手时间间隔&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t DisconnectTime;&amp;nbsp; // 离线时间&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; } Ex_Api_t;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-100">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-102" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;节点&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-100">
+          <mxGeometry x="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-103" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KKNS8De5CxTKTrktDygs-101" target="KKNS8De5CxTKTrktDygs-88">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="1820" as="sourcePoint" />
+            <mxPoint x="150" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-104" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="KKNS8De5CxTKTrktDygs-98" target="KKNS8De5CxTKTrktDygs-88">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="1820" as="sourcePoint" />
+            <mxPoint x="330" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-105" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="KKNS8De5CxTKTrktDygs-89">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="1300" as="sourcePoint" />
+            <mxPoint x="-300" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-123" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1310" y="820" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-124" value="" style="group" vertex="1" connectable="0" parent="KKNS8De5CxTKTrktDygs-123">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-125" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; typedef struct&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t Master_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 上层节点的识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t MY_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 自身识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HardwareVersion; // 硬件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t SoftwareVersion; // 软件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HandShakeTime;&amp;nbsp; &amp;nbsp;// 握手时间间隔&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t DisconnectTime;&amp;nbsp; // 离线时间&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; } Ex_Api_t;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-124">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-126" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;节点&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-124">
+          <mxGeometry x="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-132" value="&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font style=&quot;forced-color-adjust: none; font-size: 7px;&quot;&gt;&amp;nbsp; &amp;nbsp; typedef struct&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font style=&quot;forced-color-adjust: none; font-size: 7px;&quot;&gt;&amp;nbsp; &amp;nbsp; {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font style=&quot;forced-color-adjust: none; font-size: 7px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t Master_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 上层节点的识别码&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font style=&quot;forced-color-adjust: none; font-size: 7px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t MY_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 自身识别码&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font style=&quot;forced-color-adjust: none; font-size: 7px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HardwareVersion; // 硬件版本号&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font style=&quot;forced-color-adjust: none; font-size: 7px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t SoftwareVersion; // 软件版本号&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font style=&quot;forced-color-adjust: none; font-size: 7px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HandShakeTime;&amp;nbsp; &amp;nbsp;// 握手时间间隔&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font style=&quot;forced-color-adjust: none; font-size: 7px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t DisconnectTime;&amp;nbsp; // 离线时间&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font style=&quot;forced-color-adjust: none; font-size: 7px;&quot;&gt;&amp;nbsp; &amp;nbsp; } Ex_Api_t;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="310" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-148" value="Table" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;strokeColor=default;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1580" y="500" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-149" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-148">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-150" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-149">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-151" value="UniqueID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-149">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-152" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-148">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-153" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-152">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-154" value="Row 1" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-152">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-155" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-148">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-156" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-155">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-157" value="Row 2" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-155">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-158" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-148">
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-159" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-158">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-160" value="Row 3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-158">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-173" value="" style="group;labelBackgroundColor=none;textShadow=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-683" y="1754" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-174" value="" style="group;labelBackgroundColor=light-dark(#ffffff, #ededed);" vertex="1" connectable="0" parent="KKNS8De5CxTKTrktDygs-173">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-175" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;nbsp; &amp;nbsp; typedef struct&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;nbsp; &amp;nbsp; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t Master_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 上层节点的识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t MY_ID;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 自身识别码&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HardwareVersion; // 硬件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t SoftwareVersion; // 软件版本号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t HandShakeTime;&amp;nbsp; &amp;nbsp;// 握手时间间隔&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint32_t DisconnectTime;&amp;nbsp; // 离线时间&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;nbsp; &amp;nbsp; } Ex_Api_t;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-174">
+          <mxGeometry width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KKNS8De5CxTKTrktDygs-176" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;节点&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="KKNS8De5CxTKTrktDygs-174">
+          <mxGeometry x="110" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
